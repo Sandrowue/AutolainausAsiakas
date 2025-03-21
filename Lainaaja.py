@@ -1,0 +1,160 @@
+# -*- coding: utf-8 -*-
+
+################################################################################
+## Form generated from reading UI file 'lainaaja.ui'
+##
+## Created by: Qt User Interface Compiler version 6.8.0
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
+from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
+    QMetaObject, QObject, QPoint, QRect,
+    QSize, QTime, QUrl, Qt)
+from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
+    QFont, QFontDatabase, QGradient, QIcon,
+    QImage, QKeySequence, QLinearGradient, QPainter,
+    QPalette, QPixmap, QRadialGradient, QTransform)
+from PySide6.QtWidgets import (QApplication, QFrame, QHeaderView, QLabel,
+    QLineEdit, QMainWindow, QMenuBar, QPushButton,
+    QSizePolicy, QStatusBar, QTableWidget, QTableWidgetItem,
+    QWidget)
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        if not MainWindow.objectName():
+            MainWindow.setObjectName(u"MainWindow")
+        MainWindow.resize(995, 756)
+        self.centralwidget = QWidget(MainWindow)
+        self.centralwidget.setObjectName(u"centralwidget")
+        self.lainaaPushButton = QPushButton(self.centralwidget)
+        self.lainaaPushButton.setObjectName(u"lainaaPushButton")
+        self.lainaaPushButton.setGeometry(QRect(150, 90, 100, 30))
+        font = QFont()
+        font.setPointSize(14)
+        self.lainaaPushButton.setFont(font)
+        self.palautaPushButton = QPushButton(self.centralwidget)
+        self.palautaPushButton.setObjectName(u"palautaPushButton")
+        self.palautaPushButton.setGeometry(QRect(460, 90, 100, 30))
+        self.palautaPushButton.setFont(font)
+        self.hetuLabel = QLabel(self.centralwidget)
+        self.hetuLabel.setObjectName(u"hetuLabel")
+        self.hetuLabel.setGeometry(QRect(150, 290, 150, 25))
+        self.hetuLabel.setFont(font)
+        self.rekisteriNrLabel = QLabel(self.centralwidget)
+        self.rekisteriNrLabel.setObjectName(u"rekisteriNrLabel")
+        self.rekisteriNrLabel.setGeometry(QRect(470, 290, 150, 25))
+        self.rekisteriNrLabel.setFont(font)
+        self.ajokorttiLineEdit = QLineEdit(self.centralwidget)
+        self.ajokorttiLineEdit.setObjectName(u"ajokorttiLineEdit")
+        self.ajokorttiLineEdit.setGeometry(QRect(150, 190, 225, 25))
+        self.ajokorttiLineEdit.setFont(font)
+        self.lainausAvainLineEdit = QLineEdit(self.centralwidget)
+        self.lainausAvainLineEdit.setObjectName(u"lainausAvainLineEdit")
+        self.lainausAvainLineEdit.setGeometry(QRect(460, 190, 225, 25))
+        self.lainausAvainLineEdit.setFont(font)
+        self.tilaLabel = QLabel(self.centralwidget)
+        self.tilaLabel.setObjectName(u"tilaLabel")
+        self.tilaLabel.setGeometry(QRect(290, 20, 175, 25))
+        self.tilaLabel.setFont(font)
+        self.naytaLainausTiedotPushButton = QPushButton(self.centralwidget)
+        self.naytaLainausTiedotPushButton.setObjectName(u"naytaLainausTiedotPushButton")
+        self.naytaLainausTiedotPushButton.setGeometry(QRect(290, 90, 125, 30))
+        self.naytaLainausTiedotPushButton.setFont(font)
+        self.okLainaaPushButton = QPushButton(self.centralwidget)
+        self.okLainaaPushButton.setObjectName(u"okLainaaPushButton")
+        self.okLainaaPushButton.setGeometry(QRect(320, 250, 75, 30))
+        self.okLainaaPushButton.setFont(font)
+        self.alkuunPushButton = QPushButton(self.centralwidget)
+        self.alkuunPushButton.setObjectName(u"alkuunPushButton")
+        self.alkuunPushButton.setGeometry(QRect(600, 20, 125, 30))
+        self.alkuunPushButton.setFont(font)
+        self.alkuLabel = QLabel(self.centralwidget)
+        self.alkuLabel.setObjectName(u"alkuLabel")
+        self.alkuLabel.setGeometry(QRect(150, 340, 225, 25))
+        self.alkuLabel.setFont(font)
+        self.paattyminenLabel = QLabel(self.centralwidget)
+        self.paattyminenLabel.setObjectName(u"paattyminenLabel")
+        self.paattyminenLabel.setGeometry(QRect(470, 340, 225, 25))
+        self.paattyminenLabel.setFont(font)
+        self.nimiLabel = QLabel(self.centralwidget)
+        self.nimiLabel.setObjectName(u"nimiLabel")
+        self.nimiLabel.setGeometry(QRect(150, 390, 225, 25))
+        self.nimiLabel.setFont(font)
+        self.autoLabel = QLabel(self.centralwidget)
+        self.autoLabel.setObjectName(u"autoLabel")
+        self.autoLabel.setGeometry(QRect(470, 390, 225, 25))
+        self.autoLabel.setFont(font)
+        self.vapaatAutotTableWidget = QTableWidget(self.centralwidget)
+        if (self.vapaatAutotTableWidget.columnCount() < 5):
+            self.vapaatAutotTableWidget.setColumnCount(5)
+        if (self.vapaatAutotTableWidget.rowCount() < 8):
+            self.vapaatAutotTableWidget.setRowCount(8)
+        self.vapaatAutotTableWidget.setObjectName(u"vapaatAutotTableWidget")
+        self.vapaatAutotTableWidget.setGeometry(QRect(150, 460, 530, 250))
+        self.vapaatAutotTableWidget.setFrameShape(QFrame.NoFrame)
+        self.vapaatAutotTableWidget.setLineWidth(0)
+        self.vapaatAutotTableWidget.setShowGrid(False)
+        self.vapaatAutotTableWidget.setWordWrap(False)
+        self.vapaatAutotTableWidget.setCornerButtonEnabled(False)
+        self.vapaatAutotTableWidget.setRowCount(8)
+        self.vapaatAutotTableWidget.setColumnCount(5)
+        self.vapaatAutotTableWidget.horizontalHeader().setVisible(False)
+        self.vapaatAutotTableWidget.horizontalHeader().setHighlightSections(False)
+        self.vapaatAutotTableWidget.verticalHeader().setVisible(False)
+        self.vapaatAutotTableWidget.verticalHeader().setHighlightSections(False)
+        self.vapaatAutotTitlelabel = QLabel(self.centralwidget)
+        self.vapaatAutotTitlelabel.setObjectName(u"vapaatAutotTitlelabel")
+        self.vapaatAutotTitlelabel.setGeometry(QRect(150, 430, 225, 25))
+        self.vapaatAutotTitlelabel.setFont(font)
+        self.okPalautaPushButton = QPushButton(self.centralwidget)
+        self.okPalautaPushButton.setObjectName(u"okPalautaPushButton")
+        self.okPalautaPushButton.setGeometry(QRect(420, 250, 75, 30))
+        self.okPalautaPushButton.setFont(font)
+        self.naytaPalautusTiedotPushButton = QPushButton(self.centralwidget)
+        self.naytaPalautusTiedotPushButton.setObjectName(u"naytaPalautusTiedotPushButton")
+        self.naytaPalautusTiedotPushButton.setGeometry(QRect(600, 90, 125, 30))
+        self.naytaPalautusTiedotPushButton.setFont(font)
+        self.palautusAvainLineEdit = QLineEdit(self.centralwidget)
+        self.palautusAvainLineEdit.setObjectName(u"palautusAvainLineEdit")
+        self.palautusAvainLineEdit.setGeometry(QRect(460, 160, 225, 25))
+        self.palautusAvainLineEdit.setFont(font)
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QMenuBar(MainWindow)
+        self.menubar.setObjectName(u"menubar")
+        self.menubar.setGeometry(QRect(0, 0, 995, 21))
+        MainWindow.setMenuBar(self.menubar)
+        self.statusbar = QStatusBar(MainWindow)
+        self.statusbar.setObjectName(u"statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+
+        self.retranslateUi(MainWindow)
+        self.ajokorttiLineEdit.textEdited.connect(self.hetuLabel.setText)
+        self.lainausAvainLineEdit.textEdited.connect(self.rekisteriNrLabel.setText)
+        self.palautusAvainLineEdit.textEdited.connect(self.rekisteriNrLabel.setText)
+
+        QMetaObject.connectSlotsByName(MainWindow)
+    # setupUi
+
+    def retranslateUi(self, MainWindow):
+        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
+        self.lainaaPushButton.setText(QCoreApplication.translate("MainWindow", u"Lainaa", None))
+        self.palautaPushButton.setText(QCoreApplication.translate("MainWindow", u"Palauta", None))
+        self.hetuLabel.setText(QCoreApplication.translate("MainWindow", u"Henkil\u00f6tunnus", None))
+        self.rekisteriNrLabel.setText(QCoreApplication.translate("MainWindow", u"Rekisterinumero", None))
+        self.ajokorttiLineEdit.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Lue ajokortin viivakoodi", None))
+        self.lainausAvainLineEdit.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Lue avaimen viivakoodi", None))
+        self.tilaLabel.setText(QCoreApplication.translate("MainWindow", u"Tila", None))
+        self.naytaLainausTiedotPushButton.setText(QCoreApplication.translate("MainWindow", u"N\u00e4yt\u00e4 tiedot", None))
+        self.okLainaaPushButton.setText(QCoreApplication.translate("MainWindow", u"OK", None))
+        self.alkuunPushButton.setText(QCoreApplication.translate("MainWindow", u"Palaa Alkuun", None))
+        self.alkuLabel.setText(QCoreApplication.translate("MainWindow", u"Lainauksen alku", None))
+        self.paattyminenLabel.setText(QCoreApplication.translate("MainWindow", u"Lainauksen p\u00e4\u00e4ttyminen", None))
+        self.nimiLabel.setText(QCoreApplication.translate("MainWindow", u"Lainaajan Nimi", None))
+        self.autoLabel.setText(QCoreApplication.translate("MainWindow", u"Auton merkki ja malli ", None))
+        self.vapaatAutotTitlelabel.setText(QCoreApplication.translate("MainWindow", u"K\u00e4ytett\u00e4viss\u00e4 olevat autot:", None))
+        self.okPalautaPushButton.setText(QCoreApplication.translate("MainWindow", u"OK", None))
+        self.naytaPalautusTiedotPushButton.setText(QCoreApplication.translate("MainWindow", u"N\u00e4yt\u00e4 tiedot", None))
+        self.palautusAvainLineEdit.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Lue avaimen viivakoodi", None))
+    # retranslateUi
+
